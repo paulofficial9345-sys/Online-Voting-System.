@@ -1,0 +1,108 @@
+body{
+    font-family: Arial;
+
+    background: url('imagess/voting1.jpg')
+    no-repeat center center/cover;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:0;
+}
+
+/* VOTING PAGE */
+.voting-machine{
+
+    background: rgba(255,255,255,0.25);
+
+    backdrop-filter: blur(2px);
+
+    padding:50px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 0 25px rgba(0,0,0,0.3);
+}
+
+/* VOTE ROW */
+.vote-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin:20px 0;
+
+    gap:40px;
+}
+
+/* PARTY NAME */
+.party-name{
+
+    background:white;
+
+    width:150px;
+
+    padding:10px;
+
+    border-radius:5px;
+}
+
+/* VOTE SECTION */
+.vote-section{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+}
+
+/* RED LIGHT */
+.light{
+
+    width:15px;
+
+    height:15px;
+
+    background:red;
+
+    border-radius:50%;
+}
+
+/* BUTTON */
+button{
+
+    padding:10px 20px;
+
+    border:none;
+
+    cursor:pointer;
+
+    color:white;
+
+    border-radius:5px;
+
+    font-size:15px;
+}
+
+/* VOTE BUTTON */
+.vote-btn{
+
+    width:70px;
+
+    height:35px;
+
+    background:blue;
+
+    border-radius:20px;
+}

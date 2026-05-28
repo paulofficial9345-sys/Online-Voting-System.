@@ -1,0 +1,77 @@
+body{
+    font-family: Arial;
+
+    background: url('imagess/result.png')
+    no-repeat center center/cover;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:0;
+}
+
+/* RESULT BOX */
+.box{
+
+    background: rgba(255,255,255,0.25);
+
+    backdrop-filter: blur(2px);
+
+    padding:30px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+
+    width:350px;
+}
+
+/* BUTTON */
+button{
+
+    padding:10px 20px;
+
+    border:none;
+
+    cursor:pointer;
+
+    color:white;
+
+    border-radius:5px;
+
+    font-size:15px;
+
+    background:blue;
+}
+
+/* BACK BUTTON */
+.back-btn{
+
+    position:absolute;
+
+    bottom:30px;
+}
+
+.back-btn button{
+
+    padding:12px 25px;
+
+    background-color: blue;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+}

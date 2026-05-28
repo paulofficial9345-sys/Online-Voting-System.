@@ -1,0 +1,59 @@
+body{
+    font-family: Arial;
+
+    background: url('imagess/index\ image.webp')
+    no-repeat center center/cover;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:0;
+}
+
+/* HOME PAGE */
+.home-box{
+
+    background: rgba(255,255,255,0.25);
+
+    backdrop-filter: blur(2px);
+
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+
+    padding:40px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    width:500px;
+}
+
+/* HOME BUTTON */
+.home-box button{
+
+    margin:10px;
+
+    padding:15px 35px;
+
+    background:blue;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    cursor:pointer;
+}
+
+.home-box button:hover{
+
+    background:darkblue;
+}

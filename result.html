@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Result Page</title>
+
+    <link rel="stylesheet" href="result.css">
+
+</head>
+
+<body>
+
+    <div class="box">
+
+        <h1>RESULT COUNT</h1>
+
+        <h3>
+            TVK :
+            <span id="countA"></span>
+            Votes
+        </h3>
+
+        <h3>
+            DMK :
+            <span id="countB"></span>
+            Votes
+        </h3>
+
+        <h3>
+            ADMK :
+            <span id="countC"></span>
+            Votes
+        </h3>
+
+        <button onclick="adminReset()">
+
+            Reset Voting Count
+
+        </button>
+
+    </div>
+
+    <div class="back-btn">
+
+        <button onclick="goToVote()">
+
+            Back
+
+        </button>
+
+    </div>
+
+    <script src="result.js"></script>
+
+    <script>
+
+        showResult();
+
+    </script>
+
+</body>
+
+</html>
